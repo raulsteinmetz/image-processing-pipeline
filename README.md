@@ -11,12 +11,15 @@ The code boasts an exceptional level of modularity, granting you the freedom to 
 ```
 def test():
     pipe = ImageProcessingPipeline()
-    # loading test image
+    # loading test images
     pipe.load_and_resize_images('./images', (640, 640))
+    # plotting images
     pipe.plot_images()
+    # applying transformations
     pipe.filter_mean(5)
     pipe.conversion_grayscale()
     pipe.conversion_binary_threshold(127)
+    # plotting once again
     pipe.plot_images()
 
 ```
