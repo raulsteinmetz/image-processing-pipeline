@@ -1,9 +1,9 @@
 # Image Processing Pipeline
 
 
-This code empowers you to construct a versatile image processing pipeline, enabling seamless application of transformations across a multitude of images simultaneously. Within this pipeline, a diverse array of operations awaits, including equalization, binarization, color conversion, morphology, edge detection, convolution utilizing an array of filters, precise masking, resizing, and sophisticated plotting. These capabilities are further enriched by a multitude of technique options, providing you with a comprehensive toolkit for crafting impeccable visual transformations.
+This code allows you to create a flexible image processing pipeline, enabling the application of various transformations across multiple images simultaneously. The pipeline supports operations such as equalization, binarization, color conversion, morphology, edge detection, convolution with different filters, masking, resizing, and plotting. With a wide range of techniques available, it provides a comprehensive toolkit for effective image transformations.
 
-The code boasts an exceptional level of modularity, granting you the freedom to seamlessly integrate your own image transformation functions into the meticulously designed pipeline class. This versatile architecture empowers you to expand the pipeline's capabilities with your unique transformation algorithms, contributing to a dynamic and ever-evolving toolkit for crafting captivating image modifications.
+The code's modularity lets you easily integrate your own image transformation functions into the pipeline class. This flexible architecture allows you to expand the pipeline's capabilities with your unique algorithms, creating a dynamic and adaptable toolkit for image processing.
 
 
 ## Code example
